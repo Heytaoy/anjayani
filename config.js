@@ -12,23 +12,23 @@ global.APIKeys = {
 }
 
 // Ganti Sewajarnya
-global.owner = ['6283853090321']
+global.owner = ['6281808665652']
 global.pengguna = 'bnzet'
 global.premium = ['bnzet']
-global.pemilik = ['6283853090321'] 
-global.ownernomer = '6283853090321'
+global.pemilik = ['6281808665652'] 
+global.ownernomer = '6281808665652'
 global.ownername = 'bnzet'
 global.botname = ' TheMeliodas - ＭＤ'
 global.Prefix = 'Multi'
-global.meki = '6283853090321'
+global.meki = '6281808665652'
 global.footer = 'BnzetDev | © 2022'
 global.ig = 'https://instagram.com/'
 global.email = 'bostonb859@gmail.com'
 global.region = 'China'
-global.sc = 'https://www.youtube.com/channel/UCMJvRf7c7IrUn8-O4NP4opQ'
+global.sc = 'https://www.youtube.com/channel/UCMJvRf7c7IrUn8pQ'
 global.packname = '✨ BnzetDev ✨' 
 global.author = 'TheMeliodas - ＭＤ' 
-global.sessionName = 'hisoka'
+global.sessionName = 'session'
 global.prefa = ['#','!','/','']
 global.sp = '» ' 
 global.mess = {
