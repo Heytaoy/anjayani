@@ -704,13 +704,13 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
         const ctlg = { "key": { "fromMe": false, "participant": "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net"},"message": { "orderMessage": { "itemCount": 0, "surface": 'CATALOG' }}}
 
-        const rplybg = (jid, text, quoted = ctlg) => zaki.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: 'Bnzet && PitoDev', previewType:"PHOTO", thumbnail:pict, sourceUrl: `
+        const rplybg = (jid, text, quoted = ctlg) => zaki.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: 'HIFZXY ', previewType:"PHOTO", thumbnail:pict, sourceUrl: `https://pitodevid.github.io` }}}, { quoted })
 
 
 	    
         if (db.data.users[m.sender].afkTime > -1) {
         let user = global.db.data.users[m.sender]
-        rplybg(m.chat, 'Bnzet && PitoDev', m)
+        rplybg(m.chat, 'HIFZXY ', m)
         user.afkTime = -1
         } 
         
@@ -725,7 +725,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
             let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : `${args[1].replace(/ /g, '')}@s.whatsapp.net`
 
-            var main1 = {"key": {"fromMe": false, "participant": "0@s.whatsapp.net", ...({"remoteJid":''})}, "message":{"imageMessage":{"caption": "Bnzet && PitoDev"}}}
+            var main1 = {"key": {"fromMe": false, "participant": "0@s.whatsapp.net", ...({"remoteJid":''})}, "message":{"imageMessage":{"caption": "HIFZXY "}}}
 
             var main2 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"orderMessage": {"itemCount": 999999999,"surface": 'CATALOG'}}}
 
@@ -733,19 +733,19 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
             var main4 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"locationMessage": {}}}
 
-            var main5 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"documentMessage": {"title":"Bnzet && PitoDev"}}}
+            var main5 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"documentMessage": {"title":"HIFZXY "}}}
 
             var main6 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"audioMessage": {"seconds": 999999999,"ptt": "true"}}}
 
             var main7 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"audioMessage": {"seconds": 999999999}}}
 
-            var main8 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Bnzet && PitoDev","gifPlayback": true,"seconds": 999999999}}}
+            var main8 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "HIFZXY ","gifPlayback": true,"seconds": 999999999}}}
 
-            var main9 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Bnzet && PitoDev","seconds": 999999999}}}
+            var main9 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "HIFZXY ","seconds": 999999999}}}
 
-            var main10 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"groupInviteMessage": {"caption": "Bnzet && PitoDev"}}}
+            var main10 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"groupInviteMessage": {"caption": "HIFZXY "}}}
 
-            var main11 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"contactMessage": {"displayName":"Bnzet && PitoDev"}}}
+            var main11 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"contactMessage": {"displayName":"HIFZXY "}}}
 
             if (args[0] === 'reaksi' ) {
                 let user = global.db.data.users[m.sender]
@@ -762,7 +762,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main1)}
+                    rplybg(m.chat, `HIFZXY `, main1)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -770,7 +770,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main2)}
+                    rplybg(m.chat, `HIFZXY `, main2)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -778,7 +778,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main3)}
+                    rplybg(m.chat, `HIFZXY `, main3)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -786,7 +786,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main4)}
+                    rplybg(m.chat, `HIFZXY `, main4)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -794,7 +794,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main5)}
+                    rplybg(m.chat, `HIFZXY `, main5)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -802,7 +802,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main6)}
+                    rplybg(m.chat, `HIFZXY `, main6)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -810,7 +810,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main7)}
+                    rplybg(m.chat, `HIFZXY `, main7)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -818,7 +818,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main8)}
+                    rplybg(m.chat, `HIFZXY `, main8)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -826,7 +826,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main9)}
+                    rplybg(m.chat, `HIFZXY `, main9)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -834,7 +834,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main10)}
+                    rplybg(m.chat, `HIFZXY `, main10)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -842,33 +842,33 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main11)}
+                    rplybg(m.chat, `HIFZXY `, main11)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
                 } else if (args[1] === 'all' ) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main1)
+                    rplybg(m.chat, `HIFZXY `, main1)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main2)
+                    rplybg(m.chat, `HIFZXY `, main2)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main3)
+                    rplybg(m.chat, `HIFZXY `, main3)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main4)
+                    rplybg(m.chat, `HIFZXY `, main4)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main5)
+                    rplybg(m.chat, `HIFZXY `, main5)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main6)
+                    rplybg(m.chat, `HIFZXY `, main6)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main7)
+                    rplybg(m.chat, `HIFZXY `, main7)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main8)
+                    rplybg(m.chat, `HIFZXY `, main8)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main9)
+                    rplybg(m.chat, `HIFZXY `, main9)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main10)
+                    rplybg(m.chat, `HIFZXY `, main10)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main11)
+                    rplybg(m.chat, `HIFZXY `, main11)
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -886,7 +886,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main1)}
+                    rplybg(m.chat, `HIFZXY `, main1)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -894,7 +894,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main2)}
+                    rplybg(m.chat, `HIFZXY `, main2)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -902,7 +902,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main3)}
+                    rplybg(m.chat, `HIFZXY `, main3)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -910,7 +910,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main4)}
+                    rplybg(m.chat, `HIFZXY `, main4)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -918,7 +918,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main5)}
+                    rplybg(m.chat, `HIFZXY `, main5)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -926,7 +926,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main6)}
+                    rplybg(m.chat, `HIFZXY `, main6)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -934,7 +934,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main7)}
+                    rplybg(m.chat, `HIFZXY `, main7)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -942,7 +942,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main8)}
+                    rplybg(m.chat, `HIFZXY `, main8)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -950,7 +950,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main9)}
+                    rplybg(m.chat, `HIFZXY `, main9)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -958,7 +958,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main10)}
+                    rplybg(m.chat, `HIFZXY `, main10)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -966,33 +966,33 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main11)}
+                    rplybg(m.chat, `HIFZXY `, main11)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
                 } else if (args[1] === 'all' ) {
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main1)
+                    rplybg(m.chat, `HIFZXY `, main1)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main2)
+                    rplybg(m.chat, `HIFZXY `, main2)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main3)
+                    rplybg(m.chat, `HIFZXY `, main3)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main4)
+                    rplybg(m.chat, `HIFZXY `, main4)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main5)
+                    rplybg(m.chat, `HIFZXY `, main5)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main6)
+                    rplybg(m.chat, `HIFZXY `, main6)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main7)
+                    rplybg(m.chat, `HIFZXY `, main7)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main8)
+                    rplybg(m.chat, `HIFZXY `, main8)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main9)
+                    rplybg(m.chat, `HIFZXY `, main9)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main10)
+                    rplybg(m.chat, `HIFZXY `, main10)
 
-                    rplybg(m.chat, `Bnzet && PitoDev`, main11)
+                    rplybg(m.chat, `HIFZXY `, main11)
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1010,7 +1010,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main1)}
+                    rplybg(users, `HIFZXY `, main1)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1018,7 +1018,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main2)}
+                    rplybg(users, `HIFZXY `, main2)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1026,7 +1026,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main3)}
+                    rplybg(users, `HIFZXY `, main3)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1034,7 +1034,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main4)}
+                    rplybg(users, `HIFZXY `, main4)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1042,7 +1042,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main5)}
+                    rplybg(users, `HIFZXY `, main5)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1050,7 +1050,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main6)}
+                    rplybg(users, `HIFZXY `, main6)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1058,7 +1058,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main7)}
+                    rplybg(users, `HIFZXY `, main7)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1066,7 +1066,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main8)}
+                    rplybg(users, `HIFZXY `, main8)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1074,7 +1074,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main9)}
+                    rplybg(users, `HIFZXY `, main9)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1082,7 +1082,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main10)}
+                    rplybg(users, `HIFZXY `, main10)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1090,33 +1090,33 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main11)}
+                    rplybg(users, `HIFZXY `, main11)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
                 } else if (args[2] === 'all' ) {
 
-                    rplybg(users, `Bnzet && PitoDev`, main1)
+                    rplybg(users, `HIFZXY `, main1)
 
-                    rplybg(users, `Bnzet && PitoDev`, main2)
+                    rplybg(users, `HIFZXY `, main2)
 
-                    rplybg(users, `Bnzet && PitoDev`, main3)
+                    rplybg(users, `HIFZXY `, main3)
 
-                    rplybg(users, `Bnzet && PitoDev`, main4)
+                    rplybg(users, `HIFZXY `, main4)
 
-                    rplybg(users, `Bnzet && PitoDev`, main5)
+                    rplybg(users, `HIFZXY `, main5)
 
-                    rplybg(users, `Bnzet && PitoDev`, main6)
+                    rplybg(users, `HIFZXY `, main6)
 
-                    rplybg(users, `Bnzet && PitoDev`, main7)
+                    rplybg(users, `HIFZXY `, main7)
 
-                    rplybg(users, `Bnzet && PitoDev`, main8)
+                    rplybg(users, `HIFZXY `, main8)
 
-                    rplybg(users, `Bnzet && PitoDev`, main9)
+                    rplybg(users, `HIFZXY `, main9)
 
-                    rplybg(users, `Bnzet && PitoDev`, main10)
+                    rplybg(users, `HIFZXY `, main10)
 
-                    rplybg(users, `Bnzet && PitoDev`, main11)
+                    rplybg(users, `HIFZXY `, main11)
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1125,6 +1125,21 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 	        }
 
 	        break
+case 'autovn': {
+             if (!isCreator && !m.key.fromMe) throw mess.owner
+              if (args.length < 1) return m.reply(m.chat, 'Pilih on/off?')
+              if (args[0] === "on") {
+                if(vn)return m.reply(m.chat, 'Sudah aktif')
+                vn = true
+                m.reply(m.chat, `Suksess mengaktifkan auto vn`)
+              } else if (args[0] === "off") {
+                if(!vn)return m.reply(m.chat, 'Sudah nonaktif')
+                vn = false
+                m.reply(m.chat, `Suksess mematikan auto vn`)
+              }
+            }
+            break
+
 
         //BATAS
         case 'inventori': case 'profile':{
