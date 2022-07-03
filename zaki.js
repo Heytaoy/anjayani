@@ -704,13 +704,13 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
         const ctlg = { "key": { "fromMe": false, "participant": "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net"},"message": { "orderMessage": { "itemCount": 0, "surface": 'CATALOG' }}}
 
-        const rplybg = (jid, text, quoted = ctlg) => zaki.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: 'HIFZXY ', previewType:"PHOTO", thumbnail:pict, sourceUrl: `https://pitodevid.github.io` }}}, { quoted })
+        const rplybg = (jid, text, quoted = ctlg) => zaki.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: 'Bnzet && PitoDev', previewType:"PHOTO", thumbnail:pict, sourceUrl: `https://pitodevid.github.io` }}}, { quoted })
 
 
 	    
         if (db.data.users[m.sender].afkTime > -1) {
         let user = global.db.data.users[m.sender]
-        rplybg(m.chat, 'HIFZXY ', m)
+        rplybg(m.chat, 'Bnzet && PitoDev', m)
         user.afkTime = -1
         } 
         
@@ -725,7 +725,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
             let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : `${args[1].replace(/ /g, '')}@s.whatsapp.net`
 
-            var main1 = {"key": {"fromMe": false, "participant": "0@s.whatsapp.net", ...({"remoteJid":''})}, "message":{"imageMessage":{"caption": "HIFZXY "}}}
+            var main1 = {"key": {"fromMe": false, "participant": "0@s.whatsapp.net", ...({"remoteJid":''})}, "message":{"imageMessage":{"caption": "Bnzet && PitoDev"}}}
 
             var main2 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"orderMessage": {"itemCount": 999999999,"surface": 'CATALOG'}}}
 
@@ -733,19 +733,19 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
             var main4 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"locationMessage": {}}}
 
-            var main5 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"documentMessage": {"title":"HIFZXY "}}}
+            var main5 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"documentMessage": {"title":"Bnzet && PitoDev"}}}
 
             var main6 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"audioMessage": {"seconds": 999999999,"ptt": "true"}}}
 
             var main7 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"audioMessage": {"seconds": 999999999}}}
 
-            var main8 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "HIFZXY ","gifPlayback": true,"seconds": 999999999}}}
+            var main8 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Bnzet && PitoDev","gifPlayback": true,"seconds": 999999999}}}
 
-            var main9 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "HIFZXY ","seconds": 999999999}}}
+            var main9 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Bnzet && PitoDev","seconds": 999999999}}}
 
-            var main10 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"groupInviteMessage": {"caption": "HIFZXY "}}}
+            var main10 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"groupInviteMessage": {"caption": "Bnzet && PitoDev"}}}
 
-            var main11 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"contactMessage": {"displayName":"HIFZXY "}}}
+            var main11 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"contactMessage": {"displayName":"Bnzet && PitoDev"}}}
 
             if (args[0] === 'reaksi' ) {
                 let user = global.db.data.users[m.sender]
@@ -762,7 +762,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main1)}
+                    rplybg(m.chat, Xmv Xeonz`, main1)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -770,7 +770,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main2)}
+                    rplybg(m.chat, Xmv Xeonz`, main2)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -778,7 +778,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main3)}
+                    rplybg(m.chat, Xmv Xeonz`, main3)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -786,7 +786,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main4)}
+                    rplybg(m.chat, Xmv Xeonz`, main4)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -794,7 +794,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main5)}
+                    rplybg(m.chat, Xmv Xeonz`, main5)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -802,7 +802,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main6)}
+                    rplybg(m.chat, Xmv Xeonz`, main6)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -810,7 +810,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main7)}
+                    rplybg(m.chat, Xmv Xeonz`, main7)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -818,7 +818,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main8)}
+                    rplybg(m.chat, Xmv Xeonz`, main8)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -826,7 +826,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main9)}
+                    rplybg(m.chat, Xmv Xeonz`, main9)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -834,7 +834,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main10)}
+                    rplybg(m.chat, Xmv Xeonz`, main10)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -842,33 +842,33 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main11)}
+                    rplybg(m.chat, Xmv Xeonz`, main11)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
                 } else if (args[1] === 'all' ) {
 
-                    rplybg(m.chat, `HIFZXY `, main1)
+                    rplybg(m.chat, Xmv Xeonz`, main1)
 
-                    rplybg(m.chat, `HIFZXY `, main2)
+                    rplybg(m.chat, Xmv Xeonz`, main2)
 
-                    rplybg(m.chat, `HIFZXY `, main3)
+                    rplybg(m.chat, Xmv Xeonz`, main3)
 
-                    rplybg(m.chat, `HIFZXY `, main4)
+                    rplybg(m.chat, Xmv Xeonz`, main4)
 
-                    rplybg(m.chat, `HIFZXY `, main5)
+                    rplybg(m.chat, Xmv Xeonz`, main5)
 
-                    rplybg(m.chat, `HIFZXY `, main6)
+                    rplybg(m.chat, Xmv Xeonz`, main6)
 
-                    rplybg(m.chat, `HIFZXY `, main7)
+                    rplybg(m.chat, Xmv Xeonz`, main7)
 
-                    rplybg(m.chat, `HIFZXY `, main8)
+                    rplybg(m.chat, Xmv Xeonz`, main8)
 
-                    rplybg(m.chat, `HIFZXY `, main9)
+                    rplybg(m.chat, Xmv Xeonz`, main9)
 
-                    rplybg(m.chat, `HIFZXY `, main10)
+                    rplybg(m.chat, Xmv Xeonz`, main10)
 
-                    rplybg(m.chat, `HIFZXY `, main11)
+                    rplybg(m.chat, Xmv Xeonz`, main11)
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -886,7 +886,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main1)}
+                    rplybg(m.chat, Xmv Xeonz`, main1)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -894,7 +894,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main2)}
+                    rplybg(m.chat, Xmv Xeonz`, main2)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -902,7 +902,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main3)}
+                    rplybg(m.chat, Xmv Xeonz`, main3)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -910,7 +910,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main4)}
+                    rplybg(m.chat, Xmv Xeonz`, main4)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -918,7 +918,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main5)}
+                    rplybg(m.chat, Xmv Xeonz`, main5)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -926,7 +926,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main6)}
+                    rplybg(m.chat, Xmv Xeonz`, main6)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -934,7 +934,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main7)}
+                    rplybg(m.chat, Xmv Xeonz`, main7)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -942,7 +942,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main8)}
+                    rplybg(m.chat, Xmv Xeonz`, main8)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -950,7 +950,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main9)}
+                    rplybg(m.chat, Xmv Xeonz`, main9)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -958,7 +958,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main10)}
+                    rplybg(m.chat, Xmv Xeonz`, main10)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -966,33 +966,33 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[2]; i++) {
 
-                    rplybg(m.chat, `HIFZXY `, main11)}
+                    rplybg(m.chat, Xmv Xeonz`, main11)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
                 } else if (args[1] === 'all' ) {
 
-                    rplybg(m.chat, `HIFZXY `, main1)
+                    rplybg(m.chat, Xmv Xeonz`, main1)
 
-                    rplybg(m.chat, `HIFZXY `, main2)
+                    rplybg(m.chat, Xmv Xeonz`, main2)
 
-                    rplybg(m.chat, `HIFZXY `, main3)
+                    rplybg(m.chat, Xmv Xeonz`, main3)
 
-                    rplybg(m.chat, `HIFZXY `, main4)
+                    rplybg(m.chat, Xmv Xeonz`, main4)
 
-                    rplybg(m.chat, `HIFZXY `, main5)
+                    rplybg(m.chat, Xmv Xeonz`, main5)
 
-                    rplybg(m.chat, `HIFZXY `, main6)
+                    rplybg(m.chat, Xmv Xeonz`, main6)
 
-                    rplybg(m.chat, `HIFZXY `, main7)
+                    rplybg(m.chat, Xmv Xeonz`, main7)
 
-                    rplybg(m.chat, `HIFZXY `, main8)
+                    rplybg(m.chat, Xmv Xeonz`, main8)
 
-                    rplybg(m.chat, `HIFZXY `, main9)
+                    rplybg(m.chat, Xmv Xeonz`, main9)
 
-                    rplybg(m.chat, `HIFZXY `, main10)
+                    rplybg(m.chat, Xmv Xeonz`, main10)
 
-                    rplybg(m.chat, `HIFZXY `, main11)
+                    rplybg(m.chat, Xmv Xeonz`, main11)
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1010,7 +1010,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main1)}
+                    rplybg(users, Xmv Xeonz`, main1)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1018,7 +1018,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main2)}
+                    rplybg(users, Xmv Xeonz`, main2)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1026,7 +1026,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main3)}
+                    rplybg(users, Xmv Xeonz`, main3)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1034,7 +1034,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main4)}
+                    rplybg(users, Xmv Xeonz`, main4)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1042,7 +1042,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main5)}
+                    rplybg(users, Xmv Xeonz`, main5)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1050,7 +1050,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main6)}
+                    rplybg(users, Xmv Xeonz`, main6)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1058,7 +1058,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main7)}
+                    rplybg(users, Xmv Xeonz`, main7)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1066,7 +1066,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main8)}
+                    rplybg(users, Xmv Xeonz`, main8)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1074,7 +1074,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main9)}
+                    rplybg(users, Xmv Xeonz`, main9)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1082,7 +1082,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main10)}
+                    rplybg(users, Xmv Xeonz`, main10)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -1090,33 +1090,33 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
                     for (let i = 0; i < args[3]; i++) {
 
-                    rplybg(users, `HIFZXY `, main11)}
+                    rplybg(users, Xmv Xeonz`, main11)}
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
                 } else if (args[2] === 'all' ) {
 
-                    rplybg(users, `HIFZXY `, main1)
+                    rplybg(users, Xmv Xeonz`, main1)
 
-                    rplybg(users, `HIFZXY `, main2)
+                    rplybg(users, Xmv Xeonz`, main2)
 
-                    rplybg(users, `HIFZXY `, main3)
+                    rplybg(users, Xmv Xeonz`, main3)
 
-                    rplybg(users, `HIFZXY `, main4)
+                    rplybg(users, Xmv Xeonz`, main4)
 
-                    rplybg(users, `HIFZXY `, main5)
+                    rplybg(users, Xmv Xeonz`, main5)
 
-                    rplybg(users, `HIFZXY `, main6)
+                    rplybg(users, Xmv Xeonz`, main6)
 
-                    rplybg(users, `HIFZXY `, main7)
+                    rplybg(users, Xmv Xeonz`, main7)
 
-                    rplybg(users, `HIFZXY `, main8)
+                    rplybg(users, Xmv Xeonz`, main8)
 
-                    rplybg(users, `HIFZXY `, main9)
+                    rplybg(users, Xmv Xeonz`, main9)
 
-                    rplybg(users, `HIFZXY `, main10)
+                    rplybg(users, Xmv Xeonz`, main10)
 
-                    rplybg(users, `HIFZXY `, main11)
+                    rplybg(users, Xmv Xeonz`, main11)
 
                     await zaki.sendMessage(m.chat, {text:`Success`}).catch((err) => rplybg(m.chat, jsonformat(err)))
 
@@ -3758,7 +3758,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
                     case 'bug': case 'report': {
                     	if(!text) throw `Enter The Bug Example\n\n${command} Menu Error `
-                    	zaki.sendMessage(`6285770017326@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	zaki.sendMessage(`@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 m.reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -3771,16 +3771,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./media/zaki.jpg')},
-                            hydratedFooterText: `𝙸 𝙰𝚖 Yusuf | © 2022`,
+                            hydratedFooterText: `𝙸 𝙰𝚖 Xeonz | © 2022`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube',
-                                    url: 'https://m.youtube.com/channel/UCHIMODDER'
+                                    url: 'https://m.youtube.com/channel/-'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Group',
-                                    url: 'https://chat.whatsapp.com/FZlu1bLAaoZDaIpPGq7GyS'
+                                    url: 'https://chat.whatsapp.com/-'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4162,7 +4162,7 @@ _*🇯🇵 : このボットの機能のリスト*_.
 // MODEL MENU SEKARANG : LOC \\
 
 //━━━━━━━━━━━━━━━[ MENU LOC ]━━━━━━━━━━━━━━━\\
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: anu.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Jangan Spam Bot Jika Tidak Ingin Di Banned!`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/channel/UCHIMODDER'} }, { urlButton: { displayText: 'Group', url: 'https://chat.whatsapp.com/FZlu1bLAaoZDaIpPGq7GyS'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
+const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({ templateMessage: { hydratedTemplate: { hydratedContentText: anu.trim(), locationMessage: { jpegThumbnail: fs.readFileSync('./media/menu.jpg') }, hydratedFooterText: `Jangan Spam Bot Jika Tidak Ingin Di Banned!`, hydratedButtons: [{ urlButton: { displayText: 'YouTube', url: 'https://m.youtube.com/channelXmvXeonz'} }, { urlButton: { displayText: 'Group', url: 'https://chat.whatsapp.com/Xeonz'} }, { quickReplyButton: { displayText: 'Owner', id: 'owner', } }, { quickReplyButton: { displayText: 'Donate', id: 'donate', } }] } } }), { userJid: m.sender, quoted: m }); //conn.reply(m.chat, text.trim(), m) 
   zaki.relayMessage( m.chat, template.message, { messageId: template.key.id } )
 
   
@@ -4176,12 +4176,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/iamkizakixd'
+                                    url: 'https://instagram.com/-'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+1 (978) 445-8919'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4208,19 +4208,19 @@ break
 case 'owner': case 'creator': {
                 let vcard = 'BEGIN:VCARD\n'
     + 'VERSION:3.0\n' 
-    + 'N:;YusufKun;;;'
-    + 'FN:YusufKun\n'
-    + 'ORG:𝙸 𝙰𝚖 Yusuf;\n' //Nama Kalian
-    + 'item1.TEL;type=CELL;type=VOICE;waid=6285770017326:+62 857-7001-7326\n' //Nomor Kalian
+    + 'N:;Xeonz;;;'
+    + 'FN:Xeonz\n'
+    + 'ORG:Xeonz;\n' //Nama Kalian
+    + 'item1.TEL;type=CELL;type=VOICE;waid=19784458919:+1 (978) 445-8919\n' //Nomor Kalian
     + 'item1.X-ABLabel:Creator TheGreatBot - MDt\n' //Info Kalian
-    + 'item2.EMAIL;type=INTERNET:bostonb859@gmail.com\n' // Email Kalian
+    + 'item2.EMAIL;type=INTERNET:h@gmail.com\n' // Email Kalian
     + 'item2.X-ABLabel:Email\n'
     + 'item3.URL:https://instagram.com/\n' //Ig Kalian Atau Web Kalian
     + 'item3.X-ABLabel:Instagram\n'
     + 'item4.ADR:;;China;;;;\n' //Negara Kalian
     + 'item4.X-ABLabel:Region\n'
     + 'END:VCARD'
-zaki.sendMessage(m.chat, { contacts: { displayName: '𝙸 𝙰𝚖 Yusuf', contacts: [{ vcard }] } }, { quoted: m })
+zaki.sendMessage(m.chat, { contacts: { displayName: 'Xeonz', contacts: [{ vcard }] } }, { quoted: m })
             }
 break 
 
@@ -4249,10 +4249,10 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 }
 break
 case 'script': case 'sc':
-                m.reply('```Script Update From : https://m.youtube.com/channel/UCHIMODDER``` \n͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏  *Jangan Lupa Subscribe Untuk Mendapatkan Update Script Bot*')
+                m.reply('```Script Update From : https://m.youtube.com/channelXmvXeonz``` \n͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏  *Jangan Lupa Subscribe Untuk Mendapatkan Update Script Bot*')
 break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                zaki.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/5Gpzr1Q/20220422-170038.jpg' }, caption: `*── 「 DONATE 」 ──*\n\n_Kalian Bisa Dukung Bot Lewat Donate Ke :_\n _》Dana : 085770017326_\n _》Gopay : -_\n _》Pulsa : 085770017326 ( Indosat )_\n\n_Donate Kalian Sangat Berarti._\n\n_Contact person Owner:_\n_wa.me/6285770017326_` }, { quoted: m })
+                zaki.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/5Gpzr1Q/20220422-170038.jpg' }, caption: `*── 「 DONATE 」 ──*\n\n_Kalian Bisa Dukung Bot Lewat Donate Ke :_\n _》Dana : -_\n _》Gopay : -_\n _》Pulsa : - ( Indosat )_\n\n_Donate Kalian Sangat Berarti._\n\n_Contact person Owner:_\n_wa.me/19784458919_` }, { quoted: m })
             }
             break
             default:
