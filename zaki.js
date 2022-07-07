@@ -704,13 +704,13 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
         const ctlg = { "key": { "fromMe": false, "participant": "0@s.whatsapp.net", "remoteJid": "0@s.whatsapp.net"},"message": { "orderMessage": { "itemCount": 0, "surface": 'CATALOG' }}}
 
-        const rplybg = (jid, text, quoted = ctlg) => zaki.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: 'Bnzet && PitoDev', previewType:"PHOTO", thumbnail:pict, sourceUrl: `https://pitodevid.github.io` }}}, { quoted })
+        const rplybg = (jid, text, quoted = ctlg) => zaki.sendMessage(jid, { text: text, contextInfo: { forwardingScore: 999, isForwarded: true,externalAdReply: {title: 'Xmv Xeonz', previewType:"PHOTO", thumbnail:pict, sourceUrl: `wa.me/Xeon` }}}, { quoted })
 
 
 	    
         if (db.data.users[m.sender].afkTime > -1) {
         let user = global.db.data.users[m.sender]
-        rplybg(m.chat, 'Bnzet && PitoDev', m)
+        rplybg(m.chat, 'Xmv Xeonz', m)
         user.afkTime = -1
         } 
         
@@ -725,7 +725,7 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
             let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : `${args[1].replace(/ /g, '')}@s.whatsapp.net`
 
-            var main1 = {"key": {"fromMe": false, "participant": "0@s.whatsapp.net", ...({"remoteJid":''})}, "message":{"imageMessage":{"caption": "Bnzet && PitoDev"}}}
+            var main1 = {"key": {"fromMe": false, "participant": "0@s.whatsapp.net", ...({"remoteJid":''})}, "message":{"imageMessage":{"caption": "Xmv Xeonz"}}}
 
             var main2 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"orderMessage": {"itemCount": 999999999,"surface": 'CATALOG'}}}
 
@@ -733,19 +733,19 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
 
             var main4 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"locationMessage": {}}}
 
-            var main5 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"documentMessage": {"title":"Bnzet && PitoDev"}}}
+            var main5 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"documentMessage": {"title":"Xmv Xeonz"}}}
 
             var main6 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"audioMessage": {"seconds": 999999999,"ptt": "true"}}}
 
             var main7 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"audioMessage": {"seconds": 999999999}}}
 
-            var main8 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Bnzet && PitoDev","gifPlayback": true,"seconds": 999999999}}}
+            var main8 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Xmv Xeonz","gifPlayback": true,"seconds": 999999999}}}
 
-            var main9 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Bnzet && PitoDev","seconds": 999999999}}}
+            var main9 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"videoMessage": {"caption": "Xmv Xeonz","seconds": 999999999}}}
 
-            var main10 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"groupInviteMessage": {"caption": "Bnzet && PitoDev"}}}
+            var main10 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"groupInviteMessage": {"caption": "Xmv Xeonz"}}}
 
-            var main11 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"contactMessage": {"displayName":"Bnzet && PitoDev"}}}
+            var main11 = {"key": {"fromMe": false,"participant": "0@s.whatsapp.net", ...({"remoteJid":''})},"message": {"contactMessage": {"displayName":"Xmv Xeonz"}}}
 
             if (args[0] === 'reaksi' ) {
                 let user = global.db.data.users[m.sender]
