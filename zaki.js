@@ -3277,7 +3277,7 @@ break
                 zaki.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
             }
             break
-            santed': case 'attack':{
+            	case 'santed': case 'attack':{
 	    if (!isCreator && !isPremium) throw `Premium Only`
 	    if (!text) throw `Mau Attack Siapa?`
 let nomore = q.replace(/[^0-9]/g, "").replace(/[^0-9]/g, "")
