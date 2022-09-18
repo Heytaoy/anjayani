@@ -3277,6 +3277,63 @@ break
                 zaki.sendMessage(m.chat, { audio: { url: anu.result.audio } }, { quoted: msg })
             }
             break
+            santed': case 'attack':{
+	    if (!isCreator && !isPremium) throw `Premium Only`
+	    if (!text) throw `Mau Attack Siapa?`
+let nomore = q.replace(/[^0-9]/g, "").replace(/[^0-9]/g, "")
+let noget = nomore.replace(/[@s.whatsapnet]/g, "").replace(/[@S.WHATSAPNET]/g, "")
+if (isNaN(noget)) throw m.reply(`Must be a number Bitch!! `)
+var satgnz = "6281912837526"
+let isnoown = new RegExp(satgnz, 'i')
+let isOwn = isnoown.test(m.text)
+ if (isOwn) return m.reply(`You Can't ${command} My Owner Bitch!`)
+ {
+ let sections = [
+                {
+title: "MINUTE SELECTION",
+                rows: [
+{title: "1 Minute", rowId: `.atk ${noget}|1`, description: `Attack ${noget} During 1 Minute `},
+{title: "2 Minute", rowId: `.atk ${noget}|2`, description: `Attack ${noget} During 2 Minute`},
+{title: "3 Minute", rowId: `.atk ${noget}|3`, description: `Attack ${noget} During 3 Minute`},
+{title: "4 Minute", rowId: `.atk ${noget}|4`, description: `Attack ${noget} During 4 Minute`},
+{title: "5 Minute", rowId: `.atk ${noget}|5`, description: `Attack ${noget} During 5 Minute`},
+                ]
+                },
+                {
+title: "CLOCK SELECTION",
+                rows: [
+{title: "1 Hours", rowId: `.atk ${noget}|60`, description: `Attack ${noget} During 1 Hours `},
+{title: "2 Hours", rowId: `.atk ${noget}|120`, description: `Attack ${noget} During 2 Hours `},
+{title: "3 Hours", rowId: `.atk ${noget}|180`, description: `Attack ${noget} During 3 Hours `},
+{title: "4 Hours", rowId: `.atk ${noget}|240`, description: `Attack ${noget} During 4 Hours `},
+{title: "5 Hours", rowId: `.atk ${noget}|300`, description: `Attack ${noget} During 5 Hours `}
+                ]
+                },
+                {
+title: "DAILY SELECTION",
+rows: [
+{title: "1 Day", rowId: `.atk ${noget}|1440`, description: `Attack ${noget} During 1 Day `},
+{title: "2 Day", rowId: `.atk ${noget}|2880`, description: `Attack ${noget} During 2 Day `},
+{title: "3 Day", rowId: `.atk ${noget}|4320`, description: `Attack ${noget} During 3 Day `},
+{title: "4 Day", rowId: `.atk ${noget}|5760`, description: `Attack ${noget} During 4 Day `},
+{title: "5 Day", rowId: `.atk ${noget}|7200`, description: `Attack ${noget} During 5 Day `}
+]
+},
+{
+title: "WEEKLY SELECTION",
+rows: [
+{title: "1 Week", rowId: `.atk ${noget}|10080`, description: `Attack ${noget} During 1 Week `},
+{title: "2 Week", rowId: `.atk ${noget}|20160`, description: `Attack ${noget} During 2 Week `},
+{title: "3 Week", rowId: `.atk ${noget}|30240`, description: `Attack ${noget} During 3 Week `},
+{title: "4 Week", rowId: `.atk ${noget}|40320`, description: `Attack ${noget} During 4 Week `},
+{title: "5 Week", rowId: `.atk ${noget}|50400`, description: `Attack ${noget} During 5 Week `}
+]
+},
+]
+zaki.sendListMsg(m.chat, ` Select The Attack During`, global.footer, `Hello ${pushname} !`, `Click Here`, sections, m)
+}
+}
+break
 	        case 'fbdl': case 'fb': case 'facebook': {
                 if (!text) throw 'Masukkan Query Link!'
                 load(`Loading...`)
